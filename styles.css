@@ -672,6 +672,22 @@ h1 span {
     font-size: 0.78rem;
 }
 
+.featured-project {
+    grid-column: 1 / -1;
+    min-height: 330px;
+}
+
+.completed-status {
+    color: var(--cyan);
+    border-color: rgba(52, 214, 199, 0.5);
+}
+
+.project-link {
+    position: relative;
+    z-index: 1;
+    margin-top: 25px;
+}
+
 
 /* ---------- Projects responsiveness ---------- */
 
