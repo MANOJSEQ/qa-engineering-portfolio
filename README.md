@@ -4,9 +4,7 @@ A professional QA engineering portfolio showcasing my quality engineering experi
 
 ## Live Portfolio
 
-The deployed portfolio will be available at:
-
-https://manojseq.github.io/qa-engineering-portfolio/
+[View my deployed QA Engineering Portfolio](https://manojseq.github.io/qa-engineering-portfolio/)
 
 ## About Me
 
@@ -26,6 +24,45 @@ My experience includes:
 - Mentoring and onboarding support
 
 ## Portfolio Projects
+
+### Selenium Login Automation Framework
+
+A Java and Selenium WebDriver framework testing positive and negative login journeys on SauceDemo.
+
+Key features:
+
+- Four automated login tests
+- Page Object Model
+- TestNG assertions
+- Maven execution
+- Explicit waits
+- Visible and headless execution
+- Automatic failure screenshots
+- GitHub Actions continuous integration
+
+[View repository](https://github.com/MANOJSEQ/selenium-pom-login)
+
+**Status:** Completed
+
+### BDD E-commerce Checkout Automation
+
+A Java and Selenium BDD framework testing SauceDemo shopping-cart and checkout journeys.
+
+Key features:
+
+- Four Cucumber scenarios
+- Gherkin feature specifications
+- Page Object Model
+- JUnit assertions
+- Maven execution
+- Visible and headless execution
+- Automatic failure screenshots
+- HTML and JSON reports
+- GitHub Actions continuous integration
+
+[View repository](https://github.com/MANOJSEQ/bdd-ecommerce-checkout)
+
+**Status:** Completed
 
 ### Customer Journey Test Portfolio
 
@@ -58,14 +95,20 @@ A Playwright and TypeScript automation framework covering:
 
 ## Technologies
 
-- HTML5
-- CSS3
-- Git
-- GitHub
+- Java
+- Python
+- Selenium WebDriver
+- TestNG
+- Cucumber and Gherkin
+- JUnit Platform
+- Maven
+- HTML5 and CSS3
+- Git and GitHub
+- GitHub Actions
 - GitHub Pages
 
 ## Contact
 
-- GitHub: https://github.com/MANOJSEQ
-- LinkedIn: https://www.linkedin.com/in/manoj-sequeira/
+- GitHub: [MANOJSEQ](https://github.com/MANOJSEQ)
+- LinkedIn: [Manoj Sequeira](https://www.linkedin.com/in/manoj-sequeira/)
 - Location: Liverpool, United Kingdom
