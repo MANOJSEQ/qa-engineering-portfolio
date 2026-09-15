@@ -98,19 +98,25 @@ A planned manual testing case study covering:
 
 **Status:** Planned
 
-### Modern Web Automation Framework
+### Playwright Web Quality Framework
 
-A planned Playwright and TypeScript framework covering:
+A modern Playwright and TypeScript framework covering UI, API and accessibility testing.
 
-- UI automation
-- Cross-browser execution
-- API verification
-- Accessibility testing
-- Screenshots and traces
-- Failure evidence
+Key features:
+
+- Four TodoMVC user-journey tests
+- Cross-browser testing with Chromium, Firefox and WebKit
+- Three REST API tests
+- Automated accessibility testing with axe-core
+- Page Object Model
+- HTML reports
+- Failure screenshots, videos and traces
 - GitHub Actions continuous integration
+- Eight unique tests with 16 test executions passing
 
-**Status:** Planned
+[View repository](https://github.com/MANOJSEQ/playwright-web-quality-framework)
+
+**Status:** Completed
 
 ## Technologies
 
