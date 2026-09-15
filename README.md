@@ -1,6 +1,6 @@
 # Manoj Sequeira — QA Engineering Portfolio
 
-A professional QA engineering portfolio showcasing my quality engineering experience, technical capabilities and practical testing projects.
+A professional QA engineering portfolio showcasing my experience, technical capabilities and practical testing projects.
 
 ## Live Portfolio
 
@@ -64,9 +64,28 @@ Key features:
 
 **Status:** Completed
 
+### SQL Payment Database Testing
+
+A PostgreSQL database testing project validating payment records, customer relationships and business rules.
+
+Key features:
+
+- Six data-validation tests
+- Four negative database tests
+- Primary and foreign key validation
+- Unique-value constraints
+- Payment business-rule validation
+- SQL joins and aggregation
+- Automated Bash test runner
+- Test plan and test-results documentation
+
+[View repository](https://github.com/MANOJSEQ/sql-payment-database-testing)
+
+**Status:** Completed — 10 tests passing
+
 ### Customer Journey Test Portfolio
 
-A manual testing case study covering:
+A planned manual testing case study covering:
 
 - Requirements and acceptance criteria
 - Positive and negative testing
@@ -77,11 +96,11 @@ A manual testing case study covering:
 - Defect reporting
 - Test summary reporting
 
-**Status:** In development
+**Status:** Planned
 
 ### Modern Web Automation Framework
 
-A Playwright and TypeScript automation framework covering:
+A planned Playwright and TypeScript framework covering:
 
 - UI automation
 - Cross-browser execution
@@ -91,17 +110,20 @@ A Playwright and TypeScript automation framework covering:
 - Failure evidence
 - GitHub Actions continuous integration
 
-**Status:** In development
+**Status:** Planned
 
 ## Technologies
 
 - Java
 - Python
+- SQL
+- PostgreSQL
 - Selenium WebDriver
 - TestNG
 - Cucumber and Gherkin
 - JUnit Platform
 - Maven
+- Bash
 - HTML5 and CSS3
 - Git and GitHub
 - GitHub Actions
