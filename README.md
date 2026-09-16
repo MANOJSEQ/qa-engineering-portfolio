@@ -83,20 +83,25 @@ Key features:
 
 **Status:** Completed — 10 tests passing
 
-### Customer Journey Test Portfolio
+### Manual E-commerce Testing Portfolio
 
-A planned manual testing case study covering:
+A complete manual QA case study covering DemoBlaze customer journeys.
+
+Key features:
 
 - Requirements and acceptance criteria
+- Fifteen manually executed test cases
 - Positive and negative testing
-- Boundary-value testing
-- Exploratory testing
-- Risk-based testing
-- Accessibility testing
-- Defect reporting
-- Test summary reporting
+- Boundary-value analysis
+- Basic accessibility testing
+- Screenshot evidence for every test
+- Four professional defect reports
+- Test summary and release recommendation
+- Thirteen tests passed and two tests failed
 
-**Status:** Planned
+[View repository](https://github.com/MANOJSEQ/manual-ecommerce-testing)
+
+**Status:** Completed
 
 ### Playwright Web Quality Framework
 
