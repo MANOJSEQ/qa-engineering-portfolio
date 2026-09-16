@@ -127,13 +127,18 @@ Key features:
 
 - Java
 - Python
+- TypeScript
 - SQL
 - PostgreSQL
 - Selenium WebDriver
+- Playwright
 - TestNG
 - Cucumber and Gherkin
 - JUnit Platform
 - Maven
+- axe-core
+- REST API testing
+- Accessibility testing
 - Bash
 - HTML5 and CSS3
 - Git and GitHub
