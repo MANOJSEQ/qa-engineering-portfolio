@@ -310,50 +310,6 @@ h1 span {
     }
 }
 
-/* ---------- Career metrics ---------- */
-
-.career-highlights {
-    padding-bottom: 20px;
-}
-
-.metrics {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
-    overflow: hidden;
-
-    background-color: rgba(13, 27, 43, 0.78);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-}
-
-.metric {
-    padding: 28px;
-    border-right: 1px solid var(--border);
-}
-
-.metric:last-child {
-    border-right: 0;
-}
-
-.metric strong {
-    display: block;
-
-    color: var(--cyan);
-
-    font-size: 2rem;
-    line-height: 1.1;
-}
-
-.metric span {
-    display: block;
-
-    margin-top: 8px;
-
-    color: var(--muted-text);
-    font-size: 0.86rem;
-}
-
 
 /* ---------- Reusable section heading ---------- */
 
@@ -451,19 +407,9 @@ h1 span {
 
 /* ---------- Metrics and experience responsiveness ---------- */
 
+/* ---------- Experience responsiveness ---------- */
+
 @media (max-width: 820px) {
-    .metrics {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .metric:nth-child(2) {
-        border-right: 0;
-    }
-
-    .metric:nth-child(-n + 2) {
-        border-bottom: 1px solid var(--border);
-    }
-
     .section-heading {
         grid-template-columns: 1fr;
         gap: 32px;
@@ -476,19 +422,6 @@ h1 span {
 }
 
 @media (max-width: 480px) {
-    .metrics {
-        grid-template-columns: 1fr;
-    }
-
-    .metric {
-        border-right: 0;
-        border-bottom: 1px solid var(--border);
-    }
-
-    .metric:last-child {
-        border-bottom: 0;
-    }
-
     .section {
         padding-block: 68px;
     }
@@ -498,7 +431,7 @@ h1 span {
 
 .capabilities-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
 }
 
@@ -578,7 +511,10 @@ h1 span {
 .project-card {
     position: relative;
 
-    min-height: 380px;
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
     padding: 30px;
 
     overflow: hidden;
@@ -613,6 +549,7 @@ h1 span {
 
 .project-status {
     display: inline-flex;
+    align-self: flex-start;
 
     padding: 7px 11px;
 
@@ -648,6 +585,7 @@ h1 span {
     gap: 8px;
 
     margin-top: 24px;
+    margin-bottom: 20px;
 }
 
 .project-tags span {
@@ -685,7 +623,10 @@ h1 span {
 .project-link {
     position: relative;
     z-index: 1;
-    margin-top: 25px;
+
+    align-self: flex-start;
+    gap: 8px;
+    margin-top: auto;
 }
 
 
@@ -708,10 +649,10 @@ h1 span {
 }
 
 .contact-box {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: start;
+    gap: 50px;
 
     padding: 54px;
 
@@ -741,10 +682,55 @@ h1 span {
     color: var(--muted-text);
 }
 
-.contact-button {
-    flex-shrink: 0;
+.contact-details {
+    padding-left: 40px;
+    border-left: 1px solid var(--border);
 }
 
+.contact-detail {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 20px;
+
+    padding-block: 18px;
+    border-bottom: 1px solid var(--border);
+}
+
+.contact-detail:first-child {
+    border-top: 1px solid var(--border);
+}
+
+.contact-detail > span {
+    color: var(--muted-text);
+
+    font-family: monospace;
+    font-size: 0.75rem;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.contact-detail a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contact-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+
+    fill: currentColor;
+    color: var(--cyan);
+}
+
+.contact-detail a:hover {
+    color: var(--cyan);
+}
 
 /* ---------- Footer ---------- */
 
@@ -773,10 +759,19 @@ h1 span {
     }
 
     .contact-box {
-        align-items: flex-start;
-        flex-direction: column;
-
+        grid-template-columns: 1fr;
+        gap: 32px;
         padding: 34px;
+    }
+
+    .contact-details {
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    .contact-detail {
+        grid-template-columns: 1fr;
+        gap: 4px;
     }
 
     .footer-content {
